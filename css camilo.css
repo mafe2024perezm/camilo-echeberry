@@ -1,0 +1,85 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1d3557;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Secciones */
+  section {
+    padding: 40px 0;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    font-size: 1.2rem;
+  }
+  
+  section ul {
+    list-style-type: none;
+  }
+  
+  section ul li a {
+    color: #1d3557;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  section ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
